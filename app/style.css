@@ -37,6 +37,7 @@ ul {
 /* ==================================== */
 /*              HEADER                  */
 /* ==================================== */
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -145,6 +146,20 @@ input:focus {
   display: flex;
   flex-direction: column;
   gap: 2.25rem;
+}
+
+/* ==================================== */
+/*              STEPS                  */
+/* ==================================== */
+.steps {
+  display: none;
+}
+.steps.active {
+  display: block;
+}
+.qr-wrapper {
+  display: flex;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .container {
