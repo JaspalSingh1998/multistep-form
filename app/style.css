@@ -1,6 +1,8 @@
 :root {
   --color-accent: #0faf51;
   --color-black: #000000;
+  --color-count: #747474;
+  --color-count-bg: #f9f9fb;
 
   --font-regular: 400;
   --font-bold: 700;
@@ -21,7 +23,10 @@
 html {
   font-size: 100%;
 }
-
+body {
+  font-family: var(--ff-open-sans);
+  font-size: var(--font-md);
+}
 /* ==================================== */
 /*              HEADER                  */
 /* ==================================== */
@@ -45,10 +50,37 @@ html {
   cursor: pointer;
   font-size: var(--font-md);
 }
-
+.main {
+  padding: 5rem 0;
+}
+.steps-indicator {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.step-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.step-info .count {
+  padding: 1rem 1.5rem;
+  color: var(--color-count);
+  background-color: var(--color-count-bg);
+  border-radius: 5px;
+}
+.count.active {
+  background-color: var(--color-accent);
+  color: #fff;
+}
 @media screen and (min-width: 768px) {
   .container {
     padding: 2.5rem;
+  }
+  .steps-indicator {
+    flex-direction: row;
+    gap: 2.75rem;
   }
 }
 
