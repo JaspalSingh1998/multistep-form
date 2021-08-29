@@ -1,3 +1,5 @@
+[Demo Here](https://jaspalsingh1998.github.io/multistep-form/)
+
 # Welcome to Codewell! 👋
 
 Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects.
@@ -13,3 +15,7 @@ Free or paid, all templates are high quality and will make great portfolio piece
 ### Fonts Used
 
 https://fonts.google.com/specimen/Open+Sans
+
+## Output
+
+![Demo Image](./Assets/preview.png "Preview Image").
