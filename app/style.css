@@ -21,3 +21,39 @@
 html {
   font-size: 100%;
 }
+
+/* ==================================== */
+/*              HEADER                  */
+/* ==================================== */
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.24rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta {
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border: 1px solid #e2e4e8;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: var(--font-md);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .container {
+    padding: 2.5rem 9.375rem;
+  }
+}
