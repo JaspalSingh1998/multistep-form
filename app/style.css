@@ -122,6 +122,38 @@ input:focus {
 ::placeholder {
   color: #949fae;
 }
+.dropzone {
+  border: 2px dashed #a4b7dc;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.dropzone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dropzone__over {
+  border-style: solid;
+}
+.dropzone__prompt {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.dropzone__input {
+  display: none;
+}
 .next-btn {
   width: 100%;
   padding: 1rem 1.5rem;
@@ -178,6 +210,10 @@ input:focus {
     /* gap: 3.75rem; */
     justify-content: space-between;
   }
+  .dropzone {
+    width: 50%;
+    margin: 0 auto;
+  }
   .next-btn {
     width: unset;
     display: block;
@@ -190,6 +226,9 @@ input:focus {
   }
   .footer ul {
     flex-direction: row;
+  }
+  .dropzone {
+    height: 300px;
   }
 }
 

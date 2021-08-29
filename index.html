@@ -126,32 +126,12 @@
             </p>
           </div>
           <form class="form-wrapper">
-            <div class="form-group">
-              <label for="dateofbirth">Date of Birth</label>
-              <input
-                type="text"
-                name="dateofbirth"
-                id="dateofbirth"
-                placeholder="May 5, 1998"
-              />
-            </div>
-            <div class="form-group">
-              <label for="phonenumber">Phone Number</label>
-              <input
-                type="number"
-                name="phonenumber"
-                id="phonenumber"
-                placeholder="531 241-7657"
-              />
-            </div>
-            <div class="form-group">
-              <label for="address">Address</label>
-              <input
-                type="text"
-                name="address"
-                id="address"
-                placeholder="15 Yemen Road, Yemen"
-              />
+            <div class="dropzone">
+              <span class="dropzone__prompt">
+                <img src="./Assets/Folder.svg" alt="Folder Logo" />
+                Drop File Here</span
+              >
+              <input type="file" name="myFile" class="dropzone__input" />
             </div>
           </form>
         </div>
