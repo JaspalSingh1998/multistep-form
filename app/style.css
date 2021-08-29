@@ -1,0 +1,23 @@
+:root {
+  --color-accent: #0faf51;
+  --color-black: #000000;
+
+  --font-regular: 400;
+  --font-bold: 700;
+
+  --font-md: 1.125rem;
+  --font-lg: 2.25rem;
+
+  --ff-open-sans: "Open Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
